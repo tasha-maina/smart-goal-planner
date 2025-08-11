@@ -23,15 +23,15 @@
       "name": "travel to uk",
       "targetAmount": 100000,
       "category": "travel",
-      "deadline": "2025-10-14",
+      "deadline": "2025-07-14",
       "savedAmount": 700,
       "createdAt": "2025-08-08"
     },
     {
       "id": "d5ee",
-      "name": "buy a black brabus",
+      "name": "buy a pink brabus",
       "targetAmount": 200000,
-      "savedAmount": 25000,
+      "savedAmount": 30000,
       "category": "car",
       "deadline": "2025-09-01",
       "createdAt": "2025-08-08"
@@ -66,10 +66,19 @@
     {
       "id": "ddec",
       "name": "buy a human hair",
-      "targetAmount": 3500,
+      "targetAmount": 4000,
       "category": "human hair",
       "deadline": "2026-01-01",
       "savedAmount": 2000,
+      "createdAt": "2025-08-11"
+    },
+    {
+      "id": "f949",
+      "name": "visit qatar",
+      "targetAmount": 5000,
+      "category": "travel",
+      "deadline": "2025-08-01",
+      "savedAmount": 0,
       "createdAt": "2025-08-11"
     }
   ]
