@@ -4,7 +4,7 @@
       "id": "1",
       "name": "Travel Fund - Japan",
       "targetAmount": 5000,
-      "savedAmount": 3200,
+      "savedAmount": 6000,
       "category": "Travel",
       "deadline": "2025-12-31",
       "createdAt": "2024-01-15"
@@ -23,13 +23,13 @@
       "name": "travel to uk",
       "targetAmount": 100000,
       "category": "travel",
-      "deadline": "2025-08-14",
+      "deadline": "2025-10-14",
       "savedAmount": 700,
       "createdAt": "2025-08-08"
     },
     {
       "id": "d5ee",
-      "name": "buy a brabus",
+      "name": "buy a black brabus",
       "targetAmount": 200000,
       "savedAmount": 25000,
       "category": "car",
@@ -38,21 +38,39 @@
     },
     {
       "id": "25af",
-      "name": "travel to londom",
+      "name": "travel to london",
       "targetAmount": 100000,
-      "savedAmount": 0,
-      "category": "travel",
+      "savedAmount": 20000,
+      "category": "travel fund",
       "deadline": "2025-08-20",
       "createdAt": "2025-08-08"
     },
     {
       "id": "6324",
       "name": "set up an airbnb",
-      "targetAmount": 20000,
-      "savedAmount": 20000,
+      "targetAmount": 22000,
+      "savedAmount": 22200,
       "category": "investment",
       "deadline": "2025-11-01",
       "createdAt": "2025-08-08"
+    },
+    {
+      "id": "0979",
+      "name": "buy a laptop",
+      "targetAmount": 30000,
+      "category": "laptop",
+      "deadline": "2025-08-13",
+      "savedAmount": 30000,
+      "createdAt": "2025-08-11"
+    },
+    {
+      "id": "ddec",
+      "name": "buy a human hair",
+      "targetAmount": 3500,
+      "category": "human hair",
+      "deadline": "2026-01-01",
+      "savedAmount": 2000,
+      "createdAt": "2025-08-11"
     }
   ]
 }

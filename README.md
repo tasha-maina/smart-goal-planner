@@ -1,83 +1,80 @@
-Smart Goal Planner
-A React-based fintech app to help users manage multiple savings goals, track progress, and make deposits. The app uses Vite for fast development and json-server to simulate a REST API backend with local data persistence.
+# Smart Goal Planner
 
-Features
-Add, update, and delete savings goals (CRUD).
+A React-based fintech app to help users manage multiple savings goals, track progress, and make deposits. The app uses **Vite** for fast development and **json-server** to simulate a REST API backend with local data persistence.
 
-Track progress with visual progress bars.
+---
 
-Make deposits to individual goals, updating saved amounts.
+## Features
 
-Overview dashboard showing total goals, money saved, deadlines, and warnings.
+- ✅ Add, update, and delete savings goals (CRUD)
+- ✅ Track progress with visual progress bars
+- ✅ Make deposits to individual goals
+- ✅ Overview dashboard with total savings, deadlines, and warnings
+- ✅ Data persistence via local `db.json` using json-server
 
-Data is fetched from and persisted to a local db.json file via json-server.
+---
 
-Technologies
-React (with hooks and functional components)
+## Technologies
 
-Vite (build tool and dev server)
+- React (with hooks and functional components)
+- Vite (build tool and dev server)
+- json-server (mock REST API)
+- GitHub Pages for deployment *(optional)*
 
-json-server (mock REST API)
+---
 
-GitHub Pages for deployment
+## Getting Started
 
-Getting Started
-Prerequisites
-Node.js and npm installed
+### Prerequisites
 
-Installation
-Clone the repo:
+- Node.js and npm installed
 
-bash
-Copy code
-git clone https://github.com/your-username/smart-goal-planner.git
+### Installation
+
+1. Clone the repo:
+
+git clone https://github.com/tasha-maina/smart-goal-planner.git
 cd smart-goal-planner
-Install dependencies:
 
-bash
-Copy code
+2. Install dependencies:
+
 npm install
-Run the mock API server (json-server):
 
-bash
-Copy code
+3.Start the mock API server (json-server)
+
 npm run server
-This will start the json-server on http://localhost:3001 serving db.json.
+This will start json-server at http://localhost:3001 serving the db.json file.
 
-In a new terminal, run the React dev server:
-
-bash
-Copy code
+4.In a new terminal, run the React development server:
 npm run dev
-Open your browser at http://localhost:5173 to view the app.
+Then open your browser at http://localhost:5173 to use the app.
 
 Available Scripts
-Command	Description
-npm run dev	Run the Vite development server
-npm run build	Build the production-ready app
-npm run preview	Preview the production build locally
-npm run server	Start json-server at localhost:3001
-npm run deploy	Deploy to GitHub Pages (uses dist)
+Command	            Description
+npm run dev         Run the Vite development server
 
-Deployment
+npm run build	    Build the production ready app
+
+npm run preview	    Preview the production build locally
+
+npm run server	    Start json-server at port 3001
+
+npm run deploy	    Deploy to GitHub Pages (optional)
+
+Deployment (Optional)
+⚠️ Note: For the Smart Goal Planner challenge, you only need to submit your GitHub repository. Deployment is optional and provided for your own use or demo purposes.
+
+To deploy to GitHub Pages:
+
 Build the project:
 
-bash
-Copy code
 npm run build
-Deploy the contents of the dist folder to GitHub Pages:
-
-bash
-Copy code
+Deploy:
 npm run deploy
 Your app will be available at:
+https://tasha-maina.github.io/smart-goal-planner/
 
-arduino
-Copy code
-https://your-github-username.github.io/smart-goal-planner/
 Project Structure
-php
-Copy code
 /
 ├── public/             # Static assets like icons
 ├── src/                # React source files
@@ -85,12 +82,13 @@ Copy code
 │   ├── App.jsx         # Root app component
 │   └── main.jsx        # Entry point
 ├── db.json             # Local JSON data file for json-server
-├── vite.config.js      # Vite configuration (with base path)
+├── vite.config.js      # Vite configuration
 ├── package.json        # Project metadata and scripts
 └── README.md           # This file
+
 Notes
-Ensure json-server (npm run server) is running before starting the React app to enable data fetching.
+Make sure json-server is running before you start the React app.
 
-The vite.config.js sets the base path to /smart-goal-planner/ for GitHub Pages deployment.
+All goal data is stored and fetched from db.json.
 
-Make sure to commit your changes and push to the main branch for deployment to work smoothly.
+
