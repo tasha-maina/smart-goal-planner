@@ -90,7 +90,4 @@ Copy code
 └── README.md           # This file
 Notes
 Ensure json-server (npm run server) is running before starting the React app to enable data fetching.
-
-The vite.config.js sets the base path to /smart-goal-planner/ for GitHub Pages deployment.
-
-Make sure to commit your changes and push to the main branch for deployment to work smoothly.
+Note:Make sure json-server is running so that data fetching works properly.
