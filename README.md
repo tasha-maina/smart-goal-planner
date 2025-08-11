@@ -87,8 +87,5 @@ Project Structure
 └── README.md           # This file
 
 Notes
-Make sure json-server is running before you start the React app.
-
-All goal data is stored and fetched from db.json.
-
-
+Ensure json-server (npm run server) is running before starting the React app to enable data fetching.
+Note:Make sure json-server is running so that data fetching works properly.
